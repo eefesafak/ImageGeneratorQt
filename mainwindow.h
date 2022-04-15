@@ -20,7 +20,7 @@ public:
     ImageGenerator* m_ig;
 
 public slots:
-    void slotImage(QImage *img, QMutex *mutex);//yeni olusturdum
+    void slotImage(QImage *img, QMutex *mutex);
 
 private:
     Ui::MainWindow *ui;
